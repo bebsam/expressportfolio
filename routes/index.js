@@ -1,3 +1,7 @@
+//File Name: index.js
+//Student Name: BebinSamuel
+//Student ID: 301219283 
+//Date:3/10/21
 var express = require('express');
 var router = express.Router();
 
@@ -32,7 +36,7 @@ router.get('/contact', function(req, res, next) {
 });
 
 /* GET Service Registered page. */
-router.get('/serviceregister', function(req, res, next) {
+router.get('/serviceregister', function(req, res, next) { //routing for after service registeration button. 
   res.render('serviceregister', { title: 'Register'});
 });
 
